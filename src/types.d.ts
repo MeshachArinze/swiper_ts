@@ -3,4 +3,4 @@ export type SwiperItemType = {
   imageUrl: string;
 };
 
-export type Props = SwiperItemType;
+
