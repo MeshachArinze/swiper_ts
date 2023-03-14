@@ -1,16 +1,14 @@
-import React from "react";
-import { Props, SwiperItemType } from "../types";
-import "./SwiperItem.css";
+import { SwiperItemType } from "../types";
 
-
+export type Props = SwiperItemType;
 
 export default function SwiperItem({
-  imageSrc,
+  imageSrc, 
   imageUrl,
-}: Props): JSX.Element {
+}: Props) {
   return (
     <li className="swiper-item">
-      <img src={imageSrc} alt={imageUrl} className="swiper-img" />
+      <img src={imageSrc} alt={imageUrl} className="swiper-img"  draggable={false }/>
     </li>
   );
 }

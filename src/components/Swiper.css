@@ -1,7 +1,8 @@
 .swiper-container {
     width: 100%;
     max-width: 100%;
-    overflow: auto;
+    overflow: hidden;
+    display: flex;
 }
 
 .swiper-list {
@@ -10,4 +11,5 @@
     min-width: 100%;
     list-style: none;
     padding: 0;
+    touch-action: pan-x;
 }
