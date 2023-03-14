@@ -7,8 +7,8 @@ export default function SwiperItem({
   imageUrl,
 }: Props) {
   return (
-    <li className="swiper-item">
-      <img src={imageSrc} alt={imageUrl} className="swiper-img"  draggable={false }/>
+    <li className="swiper_item">
+      <img src={imageSrc} alt={imageUrl} className="swiper_img"  draggable={false }/>
     </li>
   );
 }
