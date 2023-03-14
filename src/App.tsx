@@ -1,6 +1,4 @@
 import Swiper from "./components/Swiper";
-import "./components/SwiperItem.css";
-import "./components/SwiperItem.css";
 
 function App() {
   const items = [
